@@ -1,4 +1,4 @@
-# Metanode Master Trade
+# REACT-BOILERPLATE-SWC-WEBPACK
 
 
 
