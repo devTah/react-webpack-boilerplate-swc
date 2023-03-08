@@ -1,0 +1,20 @@
+.a-typography {
+  &-body1 {
+    @include font-base(rem(16), rem(24));
+  }
+  &-body2 {
+    @include font-base(rem(14), rem(20));
+  }
+  &-body3 {
+    @include font-base(rem(12), rem(16));
+  }
+  &-body4 {
+    @include font-base(rem(10), rem(16));
+  }
+  &-9x15 {
+    @include font-base(rem(9), rem(15));
+  }
+  &-80x100 {
+    @include font-base(rem(80), rem(100));
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../../assets/styles/_mixin.scss";
+
+.a-background {
+  &::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+  }
+  &-em-brand {
+    &::before {
+      background-image: url("@assets/images/my-acc-brand.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  &-calendar {
+    background: var(--bg-app-2);
+  }
+
+  &-gradient-1 {
+    background: var(--gradient-1);
+  }
+
+}

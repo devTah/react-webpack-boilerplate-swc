@@ -1,0 +1,133 @@
+@keyframes fadeInUpCustom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  20% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInUpCustom {
+  -webkit-animation-name: fadeInUpCustom;
+  animation-name: fadeInUpCustom;;
+}
+@keyframes fadeInDownCustom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  20% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInDownCustom {
+  -webkit-animation-name: fadeInDownCustom;
+  animation-name: fadeInDownCustom;
+}
+
+
+@keyframes fadeInCustom {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeInCustom {
+  -webkit-animation-name: fadeInCustom;
+  animation-name: fadeInCustom;
+}
+
+@keyframes fadeInRightCustom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0 , 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  20% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInRightCustom {
+  -webkit-animation-name: fadeInRightCustom;
+  animation-name: fadeInRightCustom;
+}
+
+@keyframes fadeInLeftCustom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0 , 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  20% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInLeftCustom {
+  -webkit-animation-name: fadeInLeftCustom;
+  animation-name: fadeInLeftCustom;
+}
+
+.fadeInUpCustom {
+  -webkit-animation-name: fadeInUpCustom;
+  animation-name: fadeInUpCustom;
+}

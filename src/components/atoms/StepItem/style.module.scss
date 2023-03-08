@@ -1,0 +1,27 @@
+@import '../../../assets/styles/_mixin.scss';
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  .swiper {
+    height: 0;
+  }
+}
+
+.skip-container {
+  margin-right: 1rem;
+  @include adjust-flex(flex-end, center);
+}
+
+.contentImg {
+  grid-row: span 8 / span 8;
+
+  @media (max-height: 667px), screen {
+    grid-row: span 5 / span 4;
+  }
+}
+
+.contentText {
+  white-space: pre-line;
+  text-transform: capitalize;
+}

@@ -1,0 +1,113 @@
+.certificate_wrapper {
+  position: relative;
+}
+
+.certificate_container {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 55%;
+  height: 100%;
+}
+
+.certificate {
+  font-family: 'Quicksand';
+  &_wrapper {
+    position: relative;
+  }
+  &_img {
+    img {
+      aspect-ratio: 17 / 12;
+    }
+  }
+  &_wrapper_img {
+    position: relative;
+    top: 0
+  }
+  &_container {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 55%;
+    height: 43%;
+  }
+  &_content {
+    position: relative;
+    height: 100%;
+  }
+
+  &_name {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &_title {
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+    font-size: 6px;
+    font-weight: 500;
+  }
+  &_desc {
+    position: absolute;
+    top: calc(30% + 6px + 8px);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 6px;
+    font-weight: 500;
+
+    &_block {
+      margin: 0 auto;
+      width: 90%;
+    }
+  }
+  &_date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .certificate {
+    &_name {
+      font-size: 32px;
+    }
+    &_title {
+      font-size: 10px;
+    }
+    &_desc {
+      top: calc(30% + 10px + 8px);
+      font-size: 8px;
+    }
+    &_date {
+      font-size: 10px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .certificate {
+    &_name {
+      font-size: 44px;
+    }
+    &_title {
+      font-size: 16px;
+    }
+    &_desc {
+      top: calc(30% + 16px + 16px);
+      font-size: 14px;
+    }
+    &_date {
+      font-size: 16px;
+    }
+  }
+}

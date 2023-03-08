@@ -1,0 +1,45 @@
+.a-button {
+  $root: '.a-button';
+
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(8, 1fr);
+  white-space: pre;
+  // align-items: center;
+
+  &-bg-purple-linear {
+    background: var(--gradient-1);
+  }
+
+  &-outline {
+    border: 1px solid var(--text-color-base);
+    &#{$root}-bg-purple-2 {
+      border-color: var(--purple-2);
+      color: var(--text-color-base);
+    }
+    &#{$root}-purple-2 {
+      border-color: var(--purple-2);
+      color: var(--text-color-purple-light);
+    }
+  }
+
+  &-disabled {
+    &#{$root} {
+      background: var(--disabled-btn);
+    }
+    &#{$root}-outline {
+      border-color: var(--disabled-btn);
+      background-color: transparent;
+    }
+  }
+
+  &-purple-2 {
+    &#{$root}-outline {
+      border-color: var(--purple-2);
+      color: var(--purple-2);
+    }
+    &#{$root}-normal {
+      background-color: var(--purple-2);
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import '../../../assets/styles/_mixin.scss';
+
+.a-radio {
+  $root: '.a-radio';
+  width: rem(24);
+  height: rem(24);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: rem(2) solid #fff;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+
+  &-checked {
+    border-color: var(--purple-2);
+
+    #{$root}_thumb {
+      background-color: var(--purple-2);
+    }
+  }
+  &-sync {
+    border-color: var(--purple-2);
+  }
+
+  &_thumb {
+    width: rem(14);
+    height: rem(14);
+    color: #fff;
+    background-color: transparent;
+    border-radius: 100%;
+  }
+
+  &-16x16 {
+    width: rem(16);
+    height: rem(16);
+
+    #{$root}_thumb {
+      width: rem(8);
+      height: rem(8);
+    }
+  }
+}

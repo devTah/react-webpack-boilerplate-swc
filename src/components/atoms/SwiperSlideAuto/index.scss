@@ -1,0 +1,15 @@
+.swiper-slide-auto-container {
+    .swiper-pagination {
+        .swiper-pagination-bullet {
+            background: var(--grey-3) !important;
+            transform: scale(0.7);
+            transition-duration: 0.5s;
+        }
+        .swiper-pagination-bullet-active {
+            background: var(--pagination-circle) !important;
+            transform: scale(1);
+            transition-duration: 0.5s;
+        }
+        @include adjust-flex();
+    }
+}

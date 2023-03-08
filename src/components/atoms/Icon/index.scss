@@ -1,0 +1,9 @@
+.svg_icon {
+  &-arrowRight,
+  &.-arrowRightLong {
+    transform: rotate(180deg);
+  }
+  &-importRight {
+    transform: rotate(-90deg);
+  }
+}
