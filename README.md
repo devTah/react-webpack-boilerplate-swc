@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/ibenefit-fe/metanode-master-trade.git
+git remote add origin https://gitlab.com/ibenefit-fe/react-webpack-boilerplate-swc.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/ibenefit-fe/metanode-master-trade/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/ibenefit-fe/react-webpack-boilerplate-swc/-/settings/integrations)
 
 ## Collaborate with your team
 
